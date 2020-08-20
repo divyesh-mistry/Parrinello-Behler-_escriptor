@@ -57,3 +57,4 @@ def position(x,y,z,xc,yc,zc,N):
             phi_ij[i][j] = float(acot((y[j]-y[i]-yc)/(x[j]-x[i]-xc)))
     return (r_ij,r,theta_ij,phi_ij)
 r_ij,r,theta_ij,phi_ij=position(x,y,z,xc,yc,zc, N)
+ 
